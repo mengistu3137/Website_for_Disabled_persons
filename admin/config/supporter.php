@@ -1,6 +1,5 @@
 <?php
-
-$conn = mysqli_connect('localhost', 'root', 'M3603@s313@m21', 'webability');
+require_once('../connection.php');
 
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());

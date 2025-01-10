@@ -1,9 +1,6 @@
 <?php
 session_start();
-$conn = mysqli_connect('localhost', 'root', 'M3603@s313@m21', 'webability');
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
+require_once('../admin/connection.php');
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $password = mysqli_real_escape_string($conn, $_POST['password']);

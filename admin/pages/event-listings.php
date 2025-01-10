@@ -27,7 +27,18 @@
       <div id="event-container">
 
         <?php
-        $conn = mysqli_connect('localhost', 'root', 'M3603@s313@m21', 'webability');
+require_once 'vendor/autoload.php'; // Include Composer's autoload file
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
+// Use the values from the .env file
+$conn = mysqli_connect(
+    getenv('DB_HOST'), 
+    getenv('DB_USER'), 
+    getenv('DB_PASS'), 
+    getenv('DB_NAME')
+);
 
         if (!$conn) {
           die("Connection failed: " . mysqli_connect_error());
@@ -89,7 +100,18 @@
 
       <?php
 
-      $conn = mysqli_connect('localhost', 'root', 'M3603@s313@m21', 'webability');
+    require_once 'vendor/autoload.php'; // Include Composer's autoload file
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
+// Use the values from the .env file
+$conn = mysqli_connect(
+    getenv('DB_HOST'), 
+    getenv('DB_USER'), 
+    getenv('DB_PASS'), 
+    getenv('DB_NAME')
+);
 
 
       if (!$conn) {
