@@ -70,6 +70,10 @@ If you have any questions or need assistance, feel free to reach out:
 - **Project Owner**: Mengistu  
 - **GitHub**: [mengistu3137](https://github.com/mengistu3137)
   ## Screenshot of the website
+  ## home page
   ![Home page alt](https://github.com/mengistu3137/Website_for_Disabled_persons/blob/0bc94c1b5744fa92e4848b3eabc7499392053582/Home_page.png)
-  ![Eduational support page](https://github.com/mengistu3137/Website_for_Disabled_persons/blob/94784f47d1399f7b20abed52f2e2b8b1b3ef593f/Eduaction%20and%20support_page.png)
+  
+  ## educational support page
+  
+  ![Educational support page](https://github.com/mengistu3137/Website_for_Disabled_persons/blob/94784f47d1399f7b20abed52f2e2b8b1b3ef593f/Eduaction%20and%20support_page.png)
   
